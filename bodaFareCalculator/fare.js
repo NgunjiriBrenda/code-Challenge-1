@@ -15,3 +15,4 @@ function calculateBodaFare(){
 
 
 }
+let distance = prompt("Unafika wapi mkubwa?");

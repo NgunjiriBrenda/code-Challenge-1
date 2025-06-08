@@ -14,7 +14,9 @@ function EstimatedTransactionFee(amountToSend){
 
    console.log(`Sending ${amountToSend}:`)
    console.log(`Transaction Fee: ${transactionFee}`);
+  
 }
+let amount = prompt("Unatuma  ngapi?:");
 
 
 
