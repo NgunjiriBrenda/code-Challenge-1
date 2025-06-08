@@ -1,10 +1,23 @@
-function EstimatedTransactionFee(){
-    let money(number);
-    if(number === 1.5% || number === 10){
-        console.log(Math.min)
-    }
-    elseif(number === 1.5% || number ====70){
-        console.log(Math.max);
-    }
+function EstimatedTransactionFee(amountToSend){
+   const minimumFee = 10;
+   const maximuFee = 70;
+   const percentageFee = amountToSend * 1.5%;
+
+   if(percentageFee < minimumFee){
+    transactionFee = minimumFee;
+   }else if (percentageFee > maximumFee){
+    transactionFee = maximuFee;
+   }else{
+    transactionFee = percentageFee;
+   }
+   const totalDebited = amountToSend + transactionFee;
+
+   console.log(`Sending ${amountToSend}:`)
+   console.log(`Transaction Fee: ${transactionFee}`);
 }
-console.log(amount to send + transaction fee);
+
+
+
+
+
+   
