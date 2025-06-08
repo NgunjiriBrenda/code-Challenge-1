@@ -1,10 +1,22 @@
 #Code-challenge-1
 
-#A code challenge that creates a program on how to get ingredients , boda fare and fees.
+#A code challenge that creates a program on how to get ingredients , boda fare and money.
 
--chai.js
--fare.js
--fees.js
+chaiCalculator:
+   -chai.js
+bodaFareCalculator:  
+   -fare.js
+simplifiedMoneyCalculator:
+   -money.js
 
--Ngunjiri Brenda
--[License](#license)
+ChaiCalculator
+-calculates ingredients required to make chai.
+BodaFareCalculator
+-calculates boda fare in distance per kilometer.
+SimplifiedMoneyCalculator
+-calculates amount fee together with transaction fee.
+
+
+
+Name: Brenda Ngunjiri
+Github: @NgunjiriBrenda
